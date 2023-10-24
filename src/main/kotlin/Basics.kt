@@ -54,6 +54,10 @@ fun main() {
     var nulleable: String? = null
     println(nulleable?.uppercase())
 
+    var nullifies: String? = null
+    println("nullifier")
+    println(nullifies?.isEmpty())
+
     // strings
     val john = "John"
     println(john)
